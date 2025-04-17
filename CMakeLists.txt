@@ -25,7 +25,7 @@ project(Teste_ADC_Display C CXX ASM)
 pico_sdk_init()
 
 add_executable(${PROJECT_NAME}  
-    ADC_DisplayC.c # Código principal em C
+    main.c # Código principal em C
     lib/ssd1306.c # Biblioteca para o display OLED
 )
 
