@@ -1,1 +1,25 @@
-build
+# Ignorar pasta de build (compilação)
+build/
+
+# Ignorar configurações do VSCode (locais)
+.vscode/
+
+# Ignorar SDK importado localmente
+pico_sdk_import.cmake
+
+# Ignorar arquivos temporários do sistema
+*.swp
+*.swo
+*.tmp
+
+# Ignorar backups
+*~
+
+# Ignorar arquivos compilados
+*.elf
+*.bin
+*.hex
+*.uf2
+
+# Ignorar logs
+*.log
