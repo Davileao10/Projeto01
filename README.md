@@ -1,4 +1,4 @@
-Jogo de Controle Pixel com BitDogLab
+**Jogo de Controle Pixel com BitDogLab**
 
 📖 Visão Geral
 Este projeto é um jogo interativo desenvolvido para a placa BitDogLab (baseada no Raspberry Pi Pico). O jogo utiliza um joystick para mover um quadrado no display OLED SSD1306, controla uma matriz de LEDs WS2812 para refletir a posição do quadrado, e usa LEDs RGB e um buzzer para feedback interativo. O botão do joystick alterna a borda do display, e os botões A e B controlam o buzzer.
